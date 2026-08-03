@@ -1,1 +1,27 @@
+VikBooking Turkish Translation File (AI-Powered)
+This repository contains the Turkish language file (.po) prepared for the latest version of the WordPress hotel and booking plugin, VikBooking.
 
+I translated the plugin into Turkish using AI tools out of necessity for a hotel website project I am developing. I am sharing it as open-source so that other web designers and site owners building similar projects, whether on local servers or in live environments, can also benefit from it.
+
+🚀 Features
+Compatible with the latest version of the VikBooking plugin.
+
+Highly comprehensive and clear, as it was translated using AI.
+
+Covers both the admin panel (backend) and the user interface (frontend - booking forms, etc.) texts.
+
+🛠️ Installation & Usage Instructions
+Adding the translation files to your site is quite simple. Please follow the steps below in exact order:
+
+Download the vikbooking-tr_TR.po file from this repository to your computer.
+
+Access your site's files (via FTP, cPanel, or the htdocs/www folder if you are using a local server).
+
+Copy the files exactly to the following directory:
+wp-content/languages/plugins/
+
+Ensure that your site language is set to Turkish in the general WordPress settings.
+
+⚠️ IMPORTANT NOTE: DO NOT drop the files directly into the plugin's own folder (wp-content/plugins/vikbooking/languages/). If you do, your Turkish translation files will be completely wiped out the next time the VikBooking plugin updates. By placing them in the wp-content/languages/plugins/ directory mentioned above, your translations will remain secure and permanent.
+
+🤝 Contributing
